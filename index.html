@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+    <script src="./data/worldbank.js"></script>
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <!--
+        *********************************************************************************************
+        *********************************************************************************************
+        *********************************************************************************************
+        *********************************************************************************************
+        ****************              WORLDBANK                   ***********************************
+        *********************************************************************************************
+        *********************************************************************************************
+        *********************************************************************************************
+    -->
+
+    <div class="container">
+        <div class="col-lg-6">
+            <div>
+                <label>Pais</label>
+                <!--   Select importante para listar pais   -->
+                <select id="selectPais">
+                </select>
+            </div>
+
+            <br>
+            <br>
+            <div>
+                <label>Indicadores</label>
+                <!--   Select importante para listar Indicadores   -->
+                <select id="selectIndicators">
+                </select>
+            </div>
+        </div>
+
+        <div class="col-lg-6 bottom-2">
+
+            <p><b>DataSource: </b> <span id="dataSource"></span></p>
+            <p><b>LastUpdated: </b> <span id="lastUpdated"></span></p>
+            <p><b>CountryName: </b> <span id="countryName"></span></p>
+            <p><b>CountryCode: </b> <span id="countryCode"></span></p>
+            <p><b>IndicatorCode: </b> <span id="indicatorCode"></span></p>
+            <p><b>IndicatorName: </b> <span id="indicatorName"></span></p>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container mb-5 pb-5">
+        <div id="divListAuto2" class="row mt-3">
+            <div class="cont-metrica" id="cont-metrica">
+            </div>
+
+        </div>
+    </div>
+
+    <!--*
+            *********************************************************************************************
+            *********************************************************************************************
+            *********************************************************************************************
+            ****************            FIN  WORLDBANK                   ***********************************
+            *********************************************************************************************
+            *********************************************************************************************
+            *********************************************************************************************
+            *********************************************************************************************
+        -->
+
+    <script src="./js.js"></script>
+
+</body>
+
+</html>
